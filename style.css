@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: Roboto;
+	background: #ff4b1f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ff4b1f , #1fddff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ff4b1f , #1fddff); 
+	  background: url("http://wallpapercave.com/wp/ZUfWY29.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+	background: white;
+	 background: rgba(204, 204, 204, 0.3);
+
+
+}
+h1 {
+
+	color: white;
+	margin: 0;
+	padding:10px 20px;
+	color:white;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight:700;
+	text-shadow:  2px 2px black;
+	text-align: center;
+}
+h3 {
+	color: white;
+	text-shadow:  2px 2px black;
+}
+input {
+	font-size:18px;
+	background-color: #f7f7f7;
+	width: 40%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+
+	border: 3px solid rgba(0,0,0,0);
+
+
+
+}
+input:focus {
+	background: white;
+	border: 3px solid #2980b9;
+	outline: none;
+	font-size: 24px;
+}
+.results {
+	transition: 0.2s linear;
+	font-size: 32px;
+	font-weight: 700;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.btn {
+	width: 10%;
+	font-size: 18px;
+}.btn span {
+
+	font-size: 18px;
+	
+}
